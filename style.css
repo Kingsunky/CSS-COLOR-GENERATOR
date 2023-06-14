@@ -88,34 +88,19 @@ button{
 
 @media (max-width: 780px){
     
-.color-area .first-color-box .first-color-bracket{
-    width: 5rem;
-    height: 2rem;
-    border: 1px solid #2B2929;
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
 
-}
-
-.color-area .first-color-box h2{
-    color: lightslategray;
-    font-size: 1rem;
-    padding: 0.5rem 0.5rem;
-    border: 1px solid lightgray;
-    border-radius: 2rem;
-    
+.color-area{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
 }
 .generate-word h1{
     font-size: 1.5rem;
-}
-.color-area .first-color-box h2{
-    color: lightslategray;
-    font-size: 1rem;
-    padding: 0.5rem 0.5rem;
-    border: 1px solid lightgray;
-    border-radius: 2rem;
     text-align: center;
-    
 }
 }
 
